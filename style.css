@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.landing-section{
+    background: white url(imgs/img1.webp) no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+}
+.landing-wrapper{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+.landing-wrapper h1{
+    font-size: 60px;
+}
+.landing-wrapper p{
+    font-size: 20px;
+}
+.bg-dark, .btn-dark{
+    background: linear-gradient(45deg,black,darkslategray);
+    
+}
+.fa-play-circle{
+    color: #27dde2;
+    border: 3px solid transperent;
+    border-radius: 50%;
+    animation: glow-icon is infinite linear;
+}
+@keyframes glow-icon{
+    0% ,100%{
+        transform: scale(1.07,1.07);
+        box-shadow: 0 0 10px white;
+        border: 3px dotted white;
+    }
+}
+.intro icon{
+    background-color: black;
+    color: #27dde2;
+    border-radius: 50%;
+
+}
+.bg-dark .btn-dark{
+    background: linear-gradient(45deg,black,darkslategray)!important;
+
+}
+
+.gallery-img{
+    border-radius: 50px;
+    border: 5px solid #27dde2 !important;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+.gallery-img:hover{
+    transform: scale(1.05,1.05);
+}
+.btn-outline-info{
+border: 2px solid #27dde2 !important;
+}
+.btn{
+    border-radius: 50px;
+
+}
+
+.trainer-img{
+    box-shadow: 0 0 10px #27dde2;
+    margin-top: -50px;
+}
+.trainer-card{
+    border-radius: 10px !important;
+    transition: all 0.5s;
+    background-color: #27dde2 !important;
+
+}
+.trainer-card:hover{
+    transform: translateY(-20px);
+    background: linear-gradient(45deg,black,darkslategray)!important;
+    color: #27dde2;
+    box-shadow: 0 0 10px #27dde2;
+}
+.google-map{
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
